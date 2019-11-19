@@ -5,7 +5,7 @@ import GlobalStyles from "../styles/GlobalStyles";
 
 function App() {
   return (
-    <Router basename="/react_videoplaylist">
+    <Router basename="/">
       <>
         <Switch>
           <Route exact path="/" component={WbnPlayer} />
